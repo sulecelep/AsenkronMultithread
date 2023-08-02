@@ -1,0 +1,24 @@
+﻿--ContinueWith()
+
+-Task metodundan sonra ContinueWith kullanırsak Task'in içerisindeki 
+işlem tamamlandıktan sonra çalışacak kodlarımızı ekleyebiliriz.
+
+
+--WhenAll()
+
+WhenAll(task1,task2,task3...)
+bütün tasklerin sonuçlanmasını bekler ondan sona çıkan sonucu bize geri döner.
+
+--WhenAny()
+
+WhenAny(task1,task2,task3...)
+tasklerden ilk biteni döner
+
+--WaitAll()
+WaitAll(task1,task2,task3...)
+bütün tasklerin tamamlanmasını beklerken kullanıcının ui'da etkileşimini kapatır blocklar
+
+--WaitAny()
+WaitAny(task1,task2,task3...)
+İçlerinden herhangi bir taskin tamamlanmasını beklerken kullanıcının ui'da etkileşimini kapatır blocklar
+Geriye taskin indexini döner.
