@@ -22,3 +22,11 @@ bütün tasklerin tamamlanmasını beklerken kullanıcının ui'da etkileşimini
 WaitAny(task1,task2,task3...)
 İçlerinden herhangi bir taskin tamamlanmasını beklerken kullanıcının ui'da etkileşimini kapatır blocklar
 Geriye taskin indexini döner.
+
+--Delay() 
+Asenkron şekilde gecikme sağlar. Bunu yaparken bloklamaz. Sleep metodundan farkı bloklamaması ve asenkron olması.
+
+
+--Run() 
+Run metodu ayrı bir thread üzerinde çalıştırır.
+CPU'yu yoracak işlemleri ayrı bir threadte çalıştırmak uygundur
