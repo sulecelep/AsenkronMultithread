@@ -29,4 +29,8 @@ Asenkron şekilde gecikme sağlar. Bunu yaparken bloklamaz. Sleep metodundan far
 
 --Run() 
 Run metodu ayrı bir thread üzerinde çalıştırır.
-CPU'yu yoracak işlemleri ayrı bir threadte çalıştırmak uygundur
+CPU'yu yoracak işlemleri ayrı bir threadte çalıştırmak uygundur.
+
+--StartNew()
+Bu metodun içinde yazmış olduğumuz kodları ayrı bir threadte çalıştırıyor.
+Run'dan farklı olarak parametre olarak object alıp geriye bir object dönebiliyor.

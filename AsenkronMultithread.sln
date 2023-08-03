@@ -5,19 +5,23 @@ VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFormApp", "TaskFormApp\TaskFormApp.csproj", "{8AA9A919-2307-4372-851A-20776043AA72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.WebApp.API", "Task.WebApp.API\Task.WebApp.API.csproj", "{4B6894D9-DD6D-4B70-A7FD-DEB497031398}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.WebApp.API", "Task.WebApp.API\Task.WebApp.API.csproj", "{4B6894D9-DD6D-4B70-A7FD-DEB497031398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp", "TaskConsoleApp\TaskConsoleApp.csproj", "{57D8E909-792D-48BA-99CD-9AB7FF21BE55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskConsoleApp", "TaskConsoleApp\TaskConsoleApp.csproj", "{57D8E909-792D-48BA-99CD-9AB7FF21BE55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp_WhenAll", "TaskConsoleApp_WhenAll\TaskConsoleApp_WhenAll.csproj", "{689735D8-08C0-4865-BBBC-CBAD3C60778D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskConsoleApp_WhenAll", "TaskConsoleApp_WhenAll\TaskConsoleApp_WhenAll.csproj", "{689735D8-08C0-4865-BBBC-CBAD3C60778D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp_WhenAny", "TaskConsoleApp_WhenAny\TaskConsoleApp_WhenAny.csproj", "{E65ED749-226B-4A3D-BBAE-2312CED98358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskConsoleApp_WhenAny", "TaskConsoleApp_WhenAny\TaskConsoleApp_WhenAny.csproj", "{E65ED749-226B-4A3D-BBAE-2312CED98358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp_WaitAll", "TaskConsoleApp_WaitAll\TaskConsoleApp_WaitAll.csproj", "{4F06FC5F-763C-4156-876F-52537782C82D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskConsoleApp_WaitAll", "TaskConsoleApp_WaitAll\TaskConsoleApp_WaitAll.csproj", "{4F06FC5F-763C-4156-876F-52537782C82D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp_WaitAny", "TaskConsoleApp_WaitAny\TaskConsoleApp_WaitAny.csproj", "{D45C9576-FC56-4FF9-B3FA-22A88CC8BB31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskConsoleApp_WaitAny", "TaskConsoleApp_WaitAny\TaskConsoleApp_WaitAny.csproj", "{D45C9576-FC56-4FF9-B3FA-22A88CC8BB31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp_Delay", "TaskConsoleApp_Delay\TaskConsoleApp_Delay.csproj", "{73CC2C98-CD1E-4BF2-AF5C-5C939418D05B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskConsoleApp_Delay", "TaskConsoleApp_Delay\TaskConsoleApp_Delay.csproj", "{73CC2C98-CD1E-4BF2-AF5C-5C939418D05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskThreadApp_Run", "TaskThreadApp_Run\TaskThreadApp_Run.csproj", "{B90A0EFE-C719-4555-B32F-14AD49B4CB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp_StartNew", "TaskConsoleApp_StartNew\TaskConsoleApp_StartNew.csproj", "{20751CBB-ABEF-42B3-9750-12A78A67C3FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{73CC2C98-CD1E-4BF2-AF5C-5C939418D05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73CC2C98-CD1E-4BF2-AF5C-5C939418D05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73CC2C98-CD1E-4BF2-AF5C-5C939418D05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90A0EFE-C719-4555-B32F-14AD49B4CB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90A0EFE-C719-4555-B32F-14AD49B4CB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90A0EFE-C719-4555-B32F-14AD49B4CB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90A0EFE-C719-4555-B32F-14AD49B4CB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20751CBB-ABEF-42B3-9750-12A78A67C3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20751CBB-ABEF-42B3-9750-12A78A67C3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20751CBB-ABEF-42B3-9750-12A78A67C3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20751CBB-ABEF-42B3-9750-12A78A67C3FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
