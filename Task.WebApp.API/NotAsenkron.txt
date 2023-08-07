@@ -34,3 +34,11 @@ CPU'yu yoracak işlemleri ayrı bir threadte çalıştırmak uygundur.
 --StartNew()
 Bu metodun içinde yazmış olduğumuz kodları ayrı bir threadte çalıştırıyor.
 Run'dan farklı olarak parametre olarak object alıp geriye bir object dönebiliyor.
+
+--FromResult()
+Bu metot parametre olarak bir object almakta, almış olduğu bu object değerini geriye bir Task nesnesiyle beraber dönmektedir.
+genellikle bu metot cachelenmiş parametreyi dönmek amacıyla kullanılır.
+
+--CancellationToken - 1 
+Asenkron işlem bazen çok uzun sürebilir, biz bazen bu işlemi iptal etmek isteriz.
+Asenkron işlem başlatırken buna bir token veriyoruz sonra iptal ettiğimiz zaman bu asenkron metot iptal oluyor.
